@@ -16,6 +16,19 @@
             font-family: 'Inter', sans-serif;
         }
   </style>
+  <script
+    id="retell-widget"
+    src="https://dashboard.retellai.com/retell-widget.js"
+    type="module"
+    data-public-key="key_fb546964cf1d44b968b4c4d58cb5"
+    data-agent-id="agent_e7a3a9cedbb0ba9cc9875596a2"
+    data-agent-version="V1"
+    data-bot-name="Call4Space"
+    data-popup-message="Chat with us!"
+    data-show-ai-popup="true"
+    data-show-ai-popup-time="5"
+    data-auto-open="false"
+></script>
  </head>
  <body class="bg-[#F8F9FC] text-[#1A202C]">
   <!--- START: Navigation --->
@@ -468,21 +481,5 @@
    </div>
   </footer>
   <!--- END --->
-  <script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '69e126a1dcb5219dffc1f077' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production',
-          voice: {
-            url: "https://runtime-api.voiceflow.com"
-          }
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
  </body>
 </html>
